@@ -34,9 +34,6 @@ function watch(){
 	gulp.watch('./stylesheets/sass/**/*.scss',css);
 	gulp.watch('./*.html',moveHTML);
 	gulp.watch('*.html').on('change',browserSync.reload);
-
-
-
 }
 
 exports.watch = watch;
